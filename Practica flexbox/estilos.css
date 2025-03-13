@@ -18,22 +18,54 @@
     list-style: none;
 
 }
+
 .menu .enlaces ul li{
    margin-right: 10px;
 }
+
 .menu .enlaces ul li a{
    font-size: 20px;
    text-decoration: none;
    color: #f15811;
  }
+
  .menu .botones button{
     background-color: aliceblue;
     color: rgb(252, 82, 4);
     font-size: 20px;
  }
+
  /*sesion inicio*/
  #inicio{
     width: 100%;
-    height: 600px;
+    height: 700px;
  }
- 
+
+ .slider{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   overflow: auto;
+   scroll-snap-type: x mandatory;
+ }
+
+ .slide {
+  flex: none;
+  scroll-snap-align: start;
+  height: 100%;
+  width: 100%;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+
+ }
+
+.slide img{
+   width: 100%;
+   height: auto;
+}
+/*sesion recetas*/
+#recetas{
+   
+}
